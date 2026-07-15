@@ -1,0 +1,3 @@
+---
+icon: lucide/server-cog
+---

@@ -1,0 +1,5 @@
+---
+icon: lucide/database
+---
+
+# Eintragsformat

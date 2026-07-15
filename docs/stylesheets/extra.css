@@ -1,0 +1,133 @@
+@font-face {
+	font-family: "Fira Sans";
+	src: url("/stylesheets/fonts/FiraSans-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Fira Sans";
+	src: url("/stylesheets/fonts/FiraSans-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Fira Sans";
+	src: url("/stylesheets/fonts/FiraSans-SemiBold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Fira Sans";
+	src: url("/stylesheets/fonts/FiraSans-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/stylesheets/fonts/Poppins-SemiBold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("/stylesheets/fonts/Poppins-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root > * {
+	--color-background: #f5f5f5;
+	--color-background-bright: white;
+
+	--color-edge-success: #40a93b;
+	--color-edge-highlight: #4897ec;
+	--color-edge-warn: #e56f1d;
+	--color-edge-error: #de506b;
+	--color-edge: #334450;
+	--color-edge-light: #dadada;
+
+	--color-surface-primary: #334450;
+	--color-surface-primary-hover: #2a3b47;
+	--color-surface-primary-active: #202f3a;
+
+	--color-surface-highlight: #5ca3f0;
+}
+
+:root > * {
+	--md-text-font: "Fira Sans", sans-serif;
+	--md-heading-font: "Poppins", sans-serif;
+
+	--md-default-fg-color: var(--color-edge);
+	--md-default-fg-color--light: rgba(51, 68, 80, 0.75);
+	--md-default-fg-color--lighter: rgba(51, 68, 80, 0.5);
+	--md-default-fg-color--lightest: rgba(51, 68, 80, 0.13);
+
+	--md-default-bg-color: var(--color-background);
+	--md-default-bg-color--light: var(--color-background-bright);
+	--md-default-bg-color--lighter: #ffffff4d;
+	--md-default-bg-color--lightest: #ffffff1f;
+
+	/* header / top bar */
+	--md-primary-fg-color: var(--color-surface-primary);
+	--md-primary-fg-color--light: #516272;
+	--md-primary-fg-color--dark: var(--color-surface-primary-active);
+
+	/* links, buttons, selection highlights */
+	--md-accent-fg-color: var(--color-edge-highlight);
+	--md-accent-fg-color--transparent: #4897ec1a;
+	--md-accent-bg-color: #fff;
+	--md-accent-bg-color--light: #ffffffb3;
+
+	--md-typeset-a-color: var(--color-edge-highlight);
+
+	/* code */
+	--md-code-fg-color: var(--color-edge);
+	--md-code-bg-color: #e1e3e5;
+	--md-code-bg-color--light: #e8eaeb;
+	--md-code-bg-color--lighter: #eef0f1;
+}
+
+/* Give the dark theme the same blue-grey undertone as the brand's primary
+ * color instead of Zensical's default indigo hue. */
+[data-md-color-scheme="slate"] {
+	--md-hue: 205;
+}
+
+.md-logo > img {
+	border-radius: 2px;
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+	font-family: var(--md-heading-font);
+}
+
+.md-header__title,
+.md-tabs {
+	font-family: var(--md-heading-font);
+}
+
+.md-tabs__link {
+	font-weight: 600 !important;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+	padding-bottom: 0.3rem;
+	border-bottom: 2px solid var(--md-default-fg-color--lightest);
+}
