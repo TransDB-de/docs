@@ -11,7 +11,7 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "Trans*DB Docs"
+site_name = "Trans*DB Dokumentation"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
@@ -27,7 +27,7 @@ site_author = "Lena Emme"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-#site_url = "https://www.example.com/"
+site_url = "https://docs.transdb.de/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -44,10 +44,41 @@ Copyright &copy; 2026 Trans*DB
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+	"index.md",
+	{"Einstieg" = [
+		"intro/faq.md",
+		"intro/get-to-know.md",
+		"intro/help.md"
+	]},
+	{"Anleitungen" = [
+		"guides/index.md",
+		"guides/report.md",
+		"guides/submit.md",
+		{"Moderation" = [
+			"guides/Moderation/archive.md",
+			"guides/Moderation/block.md",
+			"guides/Moderation/verify.md"
+		]}
+	]},
+	{"Erklärungen" = [
+		"explanations/index.md",
+		"explanations/blocklist-decisions.md",
+		"explanations/categories.md",
+		"explanations/technologies.md"
+	]},
+	{"Referenz" = [
+		"reference/index.md",
+		"reference/entry-format.md"
+	]},
+	{"Updates" = [
+		"updates/v3.0.0.md"
+	]},
+	{"Rechtliches" = [
+		"legal/imprint.md",
+		"legal/privacy.md"
+	]}
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
@@ -67,6 +98,9 @@ extra_css = ["stylesheets/extra.css"]
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["javascripts/extra.js"]
 
+repo_url = "https://github.com/TransDB-de"
+repo_name = "github.com/TransDB-de"
+
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
@@ -83,7 +117,7 @@ extra_css = ["stylesheets/extra.css"]
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
-#custom_dir = "overrides"
+custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -354,3 +388,15 @@ combine_header_slug = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
+
+[[project.extra.social]]
+icon = "lucide/globe"
+link = "https://transdb.de"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/TransDB-de"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/mastodon"
+link = "https://chaos.social/@transdb"

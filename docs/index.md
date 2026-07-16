@@ -1,5 +1,4 @@
 ---
-icon: lucide/rocket
 title: Start
 ---
 
