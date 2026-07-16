@@ -1,0 +1,17 @@
+docs_dir = "docs"
+
+# Folders to skip entirely (assets, etc.)
+exclude = ["images", "stylesheets", "fonts", "javascripts"]
+
+# Optional: define the order of top-level categories.
+# Folders not listed here are appended alphabetically at the end.
+order = ["intro", "guides", "explanations", "reference", "updates", "legal"]
+
+# Map folder names to their display names in the navigation.
+[categories]
+intro        = "Einstieg"
+guides       = "Anleitungen"
+explanations = "Erklärungen"
+reference    = "Referenz"
+updates      = "Updates"
+legal        = "Rechtliches"
