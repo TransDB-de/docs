@@ -4,7 +4,7 @@ icon: lucide/heart-crack
 
 # Blocklist-Entscheidungen
 
-Es kann leider immer vorkommen, dass Einrichtungen nicht mehr empfehlenswert sind. Die Gründe daüfr können vielfältig sein.
+Es kann leider immer vorkommen, dass Einrichtungen nicht mehr empfehlenswert sind. Die Gründe dafür können vielfältig sein.
 
 Wir nehmen jede Meldung diesbezüglich ernst, müssen aber Abwägungen machen, die uns in manchen Fällen wirklich sehr schwer fallen.
 
@@ -15,9 +15,13 @@ Häufig bekommen wir Meldungen über respektloses Personal in Einrichtungen. Unf
 Unser Gesundheitssystem ist aber leider nicht perfekt und gerade die Versorgung für transgeschlechtliche Menschen ist verbesserungswürdig. Es gibt nur wenig spezialisiertes medizinisches Personal und die flächenmäßige Abdeckung ist in großen Teilen lückenhaft.
 
 In vielen Fällen muss man also folgende Abwägung treffen:
-**Schlechte Versorgung ist immer noch besser als gar keine Versorgung.**
 
-Wenn man respektlos behandelt wird, aber trotzdem bekommt was man braucht, kann es das wert sein. Besonders wenn die nächste Behandlungsmöglichkeit eine viel weitere Anfahrt vorraussetzt oder schlichtweg aus Kapazitätsgründen nicht verfügbar ist.
+!!! info "Die harte Realität"
+	**Schlechte Versorgung ist immer noch besser als gar keine Versorgung.**
+
+Wenn man respektlos behandelt wird, **aber trotzdem bekommt was man braucht, kann es das wert sein**. Besonders wenn die nächste Behandlungsmöglichkeit eine viel weitere Anfahrt voraussetzt oder schlichtweg aus Kapazitätsgründen nicht verfügbar ist.
+
+Geschlechtsdysphorie ist für viele eine enorme Belastung, die in manchen Fällen ernste persönliche Konsequenzen haben kann. Die Behandlung dieser kann Leben retten!
 
 Es tut uns wirklich sehr leid, dass diese Situation so ist wie sie ist. Eine optimale Gesundheitsversorgung sähe anders aus.
 
@@ -27,7 +31,10 @@ Es gibt natürlich Fälle, in denen es relativ eindeutig ist, dass ein Eintrag g
 
 Dazu zählen Behandlungfehler, die negative Konsequenzen haben und/oder Patient\*innen gefährden.
 
-Einige nenneswert Fälle wären dazu:
+Einige nennenswerte Fälle wären dazu:
 
-- **Die berüchtigten 50mg Andocur:** Bei trans\* femininer Hormontherapie wird dieses Medikament als Testosteronblocker eingesetzt. Eine Dosis von 2,5-10mg ist in der Regel vollkommen ausreichend. Eine höhere Dosis geht mit starken Risiken für Depressionen und in schlimmen Fällen sogar Hirngeschwüre einher. Ärzte, die diese Dosen verschreiben handeln verantwortungslos und setzen Patient\*innen einem unnötigen Risiko aus. 
+- **Die berüchtigten 50mg Androcur:** Bei trans\* femininer Hormontherapie wird dieses Medikament als Testosteronblocker eingesetzt. Eine Dosis von 2,5-10mg ist in der Regel vollkommen ausreichend. Eine höhere Dosis geht mit starken Risiken für Depressionen und in schlimmen Fällen sogar Hirngeschwüre einher. Ärzte, die diese Dosen verschreiben handeln verantwortungslos und setzen Patient\*innen einem unnötigen Risiko aus. 
 - **OP-Pfusch:** Komplikationen können bei komplexen Eingriffen wie geschlechtsangleichenden Operationen immer auftreten. Wenn jedoch eine oder sogar mehrere Operationen verpfuscht wurden, ist das auf jeden Fall ein Grund als trans\* Person, diese Ärzte und Kliniken zu meiden. Dies gilt natürlich auch für Operationsergebnisse, mit denen viele Patient\*innen überwiegend unzufrienden sind.
+- **Exzessives negatives Verhalten:** Sei es Mobbing innerhalb von Selbsthilfegruppen, oder Praxispersonal, welches trans\* Personen wirklich durchgängig wie Dreck behandelt. Wenn es nicht mehr nur Unfreundlichkeit ist, sondern systematische Ächtung, dann haben diese Einrichtungen ihr Vertrauen definitiv verspielt. So etwas muss sich niemand gefallen lassen, deshalb werden in solchen Fällen Einträge auch von uns gesperrt.
+
+Außerdem: Je häufiger ein Eintrag gemeldet wird, desto eher sperren wir ihn auch. Selbst wenn dort nichts krass schlimmes passiert ist, wenn die Community mit einer Einrichtung überwiegend unzufrieden ist, halten wir es auch für sinnvoll, diesen aus der Datenbank zu nehmen.

@@ -65,11 +65,13 @@ nav = [
 		"explanations/index.md",
 		"explanations/blocklist-decisions.md",
 		"explanations/categories.md",
+		"explanations/licensing.md",
 		"explanations/technologies.md"
 	]},
 	{"Referenz" = [
 		"reference/index.md",
-		"reference/entry-format.md"
+		"reference/entry-format.md",
+		"reference/technical-architecture.md"
 	]},
 	{"Updates" = [
 		"updates/v3.0.0.md"
